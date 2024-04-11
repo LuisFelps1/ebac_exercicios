@@ -1,0 +1,40 @@
+form {
+    margin-top: 40px;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    text-transform: uppercase;
+    color: color white;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:blueviolet
+}
+
+.sucess-message {
+    background-color: blueviolet;
+    padding: 16px;
+}
+
+body {
+    background-color: black;
+    font-family: monospace;
+}
