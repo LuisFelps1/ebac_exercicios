@@ -1,0 +1,18 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    color: red;
+}
+
+ul li{
+    cursor: pointer;
+    
+}
+
+.checked{
+    text-decoration: line-through;
+}
