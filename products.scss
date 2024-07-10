@@ -1,0 +1,45 @@
+.products {
+    margin-top: $margin-product-top;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: $gap-column;
+    row-gap: $gap-row;
+    width: 100%;
+
+    @media screen and (max-width: 1023px) {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+
+    @media screen and (max-width: 767px) {
+        display: block;
+    }
+
+    .product-item {
+        img {
+            width: 100%;
+            border-radius: $border-radius-img;
+        }
+
+        &:not(:last-child) {
+            @media screen and (max-width: 767px) {
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
+
+.product-button {
+    display: block;
+    background-color: $color-button;
+    color: $color-white;
+    text-align: center;
+    padding: $padding-button;
+    border-radius: $border-radius-button;
+    margin-top: $margin-button-top;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $color-button-hover;
+    }
+}
