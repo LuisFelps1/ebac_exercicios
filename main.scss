@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(45deg, green, greenyellow);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: aliceblue;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.event-details {
+    margin: 2rem 0;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.event-details h2 {
+    font-size: 2rem;
+    color: green;
+}
+
+.event-details p {
+    font-size: 1.1rem;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cta a {
+    display: inline-block;
+    background: red;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta a:hover {
+    background: greenyellow;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .event-details h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta a {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
